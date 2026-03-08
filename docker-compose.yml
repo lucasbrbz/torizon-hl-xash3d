@@ -18,7 +18,7 @@ services:
     command: --developer
 
   xash3d:
-    image: xash3d:1.0
+    image: hl-xash3d:1.0
     user: torizon
     device_cgroup_rules:
       - 'c 199:* rmw'
